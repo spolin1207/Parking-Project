@@ -1,3 +1,5 @@
+## Parking Project ##
+
 The parking project is an automated Python script that allows the user to add & remove a vehicle from the University of Maryland parking portal. It has functionality to bypass Duo push 2FA and register/deregister a vehicle from the parking portal. In order to do so, you must generate preauthorized bypass codes from your password portal and paste them into "bypasscodes.txt" with no extra lines.
 
 In each of the Python scripts, enter your login information as well as vehicle credentials. You can then set your machine (local or cloud) to run the script at predetermined times, therefore automatically adding and removing your vehicle from the UMD parking portal. Run "addvehicle.py" when you want your vehicle added to the portal, and "removevehicle.py" to erase it from the portal. 
